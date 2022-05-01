@@ -12,6 +12,7 @@
 		56ABE31B281E3EA100E108F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56ABE31A281E3EA100E108F6 /* Assets.xcassets */; };
 		56ABE31E281E3EA100E108F6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56ABE31D281E3EA100E108F6 /* Preview Assets.xcassets */; };
 		56ABE325281E7B3000E108F6 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56ABE324281E7B3000E108F6 /* CircleImage.swift */; };
+		56ABE327281E7D9300E108F6 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56ABE326281E7D9300E108F6 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		56ABE31A281E3EA100E108F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56ABE31D281E3EA100E108F6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		56ABE324281E7B3000E108F6 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		56ABE326281E7D9300E108F6 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				56ABE31A281E3EA100E108F6 /* Assets.xcassets */,
 				56ABE324281E7B3000E108F6 /* CircleImage.swift */,
 				56ABE31C281E3EA100E108F6 /* Preview Content */,
+				56ABE326281E7D9300E108F6 /* MapView.swift */,
 			);
 			path = Landmarks;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				56ABE319281E3EA000E108F6 /* ContentView.swift in Sources */,
+				56ABE327281E7D9300E108F6 /* MapView.swift in Sources */,
 				56ABE317281E3EA000E108F6 /* LandmarksApp.swift in Sources */,
 				56ABE325281E7B3000E108F6 /* CircleImage.swift in Sources */,
 			);
