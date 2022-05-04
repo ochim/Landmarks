@@ -17,6 +17,7 @@
 		56BBC0F428224D9A0089B7E9 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BBC0E228224D9A0089B7E9 /* MapView.swift */; };
 		56BBC0F528224D9A0089B7E9 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BBC0E328224D9A0089B7E9 /* CircleImage.swift */; };
 		56BBC0F628224D9A0089B7E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BBC0E428224D9A0089B7E9 /* ContentView.swift */; };
+		56BBC0F82822500A0089B7E9 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BBC0F72822500A0089B7E9 /* LandmarkRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		56BBC0E228224D9A0089B7E9 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		56BBC0E328224D9A0089B7E9 /* CircleImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		56BBC0E428224D9A0089B7E9 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		56BBC0F72822500A0089B7E9 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				56BBC0E228224D9A0089B7E9 /* MapView.swift */,
 				56BBC0E328224D9A0089B7E9 /* CircleImage.swift */,
 				56BBC0E428224D9A0089B7E9 /* ContentView.swift */,
+				56BBC0F72822500A0089B7E9 /* LandmarkRow.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 				56BBC0F228224D9A0089B7E9 /* ModelData.swift in Sources */,
 				56BBC0F628224D9A0089B7E9 /* ContentView.swift in Sources */,
 				56ABE317281E3EA000E108F6 /* LandmarksApp.swift in Sources */,
+				56BBC0F82822500A0089B7E9 /* LandmarkRow.swift in Sources */,
 				56BBC0F328224D9A0089B7E9 /* Landmark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
