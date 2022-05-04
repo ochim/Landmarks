@@ -11,7 +11,6 @@
 		56ABE317281E3EA000E108F6 /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56ABE316281E3EA000E108F6 /* LandmarksApp.swift */; };
 		56ABE31B281E3EA100E108F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56ABE31A281E3EA100E108F6 /* Assets.xcassets */; };
 		56ABE31E281E3EA100E108F6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56ABE31D281E3EA100E108F6 /* Preview Assets.xcassets */; };
-		56BBC0E528224D9A0089B7E9 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 56BBC0D028224D9A0089B7E9 /* LICENSE.txt */; };
 		56BBC0F128224D9A0089B7E9 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 56BBC0DD28224D9A0089B7E9 /* landmarkData.json */; };
 		56BBC0F228224D9A0089B7E9 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BBC0DF28224D9A0089B7E9 /* ModelData.swift */; };
 		56BBC0F328224D9A0089B7E9 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BBC0E028224D9A0089B7E9 /* Landmark.swift */; };
@@ -19,7 +18,6 @@
 		56BBC0F528224D9A0089B7E9 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BBC0E328224D9A0089B7E9 /* CircleImage.swift */; };
 		56BBC0F628224D9A0089B7E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BBC0E428224D9A0089B7E9 /* ContentView.swift */; };
 		56BBC0F82822500A0089B7E9 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BBC0F72822500A0089B7E9 /* LandmarkRow.swift */; };
-		56BBC0FA282253D00089B7E9 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56BBC0F9282253CF0089B7E9 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -184,10 +182,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56BBC0E528224D9A0089B7E9 /* LICENSE.txt in Resources */,
 				56ABE31E281E3EA100E108F6 /* Preview Assets.xcassets in Resources */,
 				56BBC0F128224D9A0089B7E9 /* landmarkData.json in Resources */,
-				56BBC0FA282253D00089B7E9 /* Info.plist in Resources */,
 				56ABE31B281E3EA100E108F6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
