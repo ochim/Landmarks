@@ -313,12 +313,12 @@
 		56ABE315281E3EA000E108F6 /* Landmarks */ = {
 			isa = PBXGroup;
 			children = (
+				56ABE316281E3EA000E108F6 /* LandmarksApp.swift */,
 				56BBC0F9282253CF0089B7E9 /* Info.plist */,
+				56ABE31A281E3EA100E108F6 /* Assets.xcassets */,
 				56BBC0DE28224D9A0089B7E9 /* Model */,
 				56BBC0CE28224D9A0089B7E9 /* Resources */,
 				56BBC0E128224D9A0089B7E9 /* Views */,
-				56ABE316281E3EA000E108F6 /* LandmarksApp.swift */,
-				56ABE31A281E3EA100E108F6 /* Assets.xcassets */,
 				56ABE31C281E3EA100E108F6 /* Preview Content */,
 			);
 			path = Landmarks;
