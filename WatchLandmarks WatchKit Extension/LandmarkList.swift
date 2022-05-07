@@ -1,8 +1,8 @@
 //
 //  LandmarkList.swift
-//  Landmarks
+//  WatchLandmarks WatchKit Extension
 //
-//  Created by 越智宗洋 on 2022/05/04.
+//  Created by 越智宗洋 on 2022/05/07.
 //
 
 import SwiftUI
@@ -10,20 +10,20 @@ import SwiftUI
 struct LandmarkList: View {
     @EnvironmentObject var modelData: ModelData
     @State private var showFavoritesOnly = false
-    
+
     var filteredLandmarks: [Landmark] {
         modelData.landmarks.filter { landmark in
             (!showFavoritesOnly || landmark.isFavorite)
         }
     }
-    
+
     var body: some View {
         NavigationView {
             List {
                 Toggle(isOn: $showFavoritesOnly) {
-                    Text("Favorites Only")
+                    Text("Favorites only")
                 }
-                
+
                 ForEach(filteredLandmarks) { landmark in
                     NavigationLink {
                         LandmarkDetail(landmark: landmark)
@@ -33,14 +33,13 @@ struct LandmarkList: View {
                 }
             }
             .navigationTitle("Landmarks")
-            .frame(minWidth: 300)
         }
     }
 }
 
 struct LandmarkList_Previews: PreviewProvider {
     static var previews: some View {
-            LandmarkList()
+        LandmarkList()
             .environmentObject(ModelData())
     }
 }
